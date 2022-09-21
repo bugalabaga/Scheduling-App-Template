@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">App Name</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">New Meeting</string>
+    <string name="title_notifications">Profile</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_search">Search</string>
+    <string name="tutor_name">Tutor Name</string>
+    <string name="meeting">Meeting</string>
+    <string name="meeting_time">Meeting Time</string>
+    <string name="subject">Subject</string>
+    <string name="name">Name</string>
+    <string name="username">Name</string>
+    <string name="description">I like to play with toys \nI attend St. John\'s school \nEmus are fun to play with</string>
+    <string name="email">Email</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="subjects">Subjects</string>
+    <string name="title_activity_login">App Name</string>
+    <string name="browse_title">Videos by Your Company</string>
+
+    <string name="related_movies">Related Videos</string>
+
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string-array name="tutorNames">
+
+        <item>Janice</item>
+        <item>Kennedy</item>
+        <item>Mark</item>
+        <item>Judith</item>
+        <item>Robert</item>
+        <item>Patrick</item>
+
+    </string-array>
+    <string-array name="subjects">
+
+        <item>Mathematics</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Writing</item>
+        <item>Reading</item>
+    </string-array>
+
+    <!-- Error messages -->
+</resources>

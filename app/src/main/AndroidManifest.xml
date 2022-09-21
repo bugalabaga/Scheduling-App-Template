@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.apptemplate">
+
+    <application
+        android:fullBackupContent="true"
+        android:icon="@mipmap/avatar2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/avatar2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.appTemplate">
+        <activity
+            android:name="com.example.apptemplate.LoginActivity"
+            android:banner="@mipmap/avatar2"
+            android:exported="true"
+            android:icon="@mipmap/avatar2"
+            android:label="@string/title_activity_login"
+            android:logo="@mipmap/avatar2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.apptemplate.DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.apptemplate.PlaybackActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.apptemplate.BrowseErrorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.apptemplate.MainActivity"
+            android:banner="@mipmap/avatar2"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name="com.example.apptemplate.MeetingNotification">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+</manifest>
